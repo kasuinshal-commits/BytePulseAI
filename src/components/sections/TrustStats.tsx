@@ -11,7 +11,7 @@ export const TrustStats: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Stats Counter Banner */}
-        <div id="why-us" className="rounded-2xl p-8 sm:p-10 bg-gradient-to-r from-[#0F172A] via-[#161F30] to-[#0F172A] border border-white/10 shadow-2xl mb-24">
+        <div className="rounded-2xl p-8 sm:p-10 bg-gradient-to-r from-[#0F172A] via-[#161F30] to-[#0F172A] border border-white/10 shadow-2xl mb-24">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {STATS_DATA.map((stat, idx) => (
               <div key={idx} className="text-center sm:text-left">

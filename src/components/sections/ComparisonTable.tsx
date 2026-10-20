@@ -47,7 +47,7 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({ onEstimateClic
   ];
 
   return (
-    <section className="py-24 relative bg-[#090D16] border-y border-white/5">
+    <section id="why-us" className="py-24 relative bg-[#090D16] border-y border-white/5">
       {/* Background radial spotlight */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-[#00F2FE]/5 rounded-full blur-[160px] pointer-events-none" />
 

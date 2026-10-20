@@ -35,7 +35,7 @@ export const BytePulseCopilot: React.FC = () => {
     { label: "💰 What is the cost for an MVP?", query: "What is the cost for an MVP?" },
     { label: "📱 Do you build native Android apps?", query: "Do you build native Android apps?" },
     { label: "🤖 Can you integrate RAG & AI agents?", query: "Can you integrate RAG & AI agents?" },
-    { label: "⚖️ BytePulse vs Traditional Agencies?", query: "Why choose BytePulse over traditional agencies?" },
+    { label: "⚖️ BytePulseAI vs Traditional Agencies?", query: "Why choose BytePulseAI over traditional agencies?" },
     { label: "🔒 Who owns the code and IP?", query: "Who owns the code and IP?" },
     { label: "⚡ How fast can we kickoff?", query: "How fast can we kickoff?" }
   ];
@@ -240,7 +240,7 @@ export const BytePulseCopilot: React.FC = () => {
     // 14. Comparison: BytePulse vs Agencies vs Freelancers
     if (/\b(why|compare|comparison|freelancer|traditional|agency vs|difference|better)\b/.test(q)) {
       return {
-        text: "Unlike traditional agencies that take 3–6 months with bloated retainers, or freelancers with ghosting risks, BytePulse delivers rapid 2–6 week agile sprints with modern React 19/Kotlin 120 FPS code, 100% client IP ownership, and milestone pricing in ₹.",
+        text: "Unlike traditional agencies that take 3–6 months with bloated retainers, or freelancers with ghosting risks, BytePulseAI delivers rapid 2–6 week agile sprints with modern React 19/Kotlin 120 FPS code, 100% client IP ownership, and milestone pricing in ₹.",
         action: {
           label: "View Detailed Comparison Table",
           type: 'scroll',
