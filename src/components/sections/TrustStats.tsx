@@ -4,7 +4,7 @@ import { TESTIMONIALS_DATA, STATS_DATA, FAQS } from '../../data/bytePulseData';
 
 export const TrustStats: React.FC = () => {
   return (
-    <section id="testimonials" className="py-24 relative bg-[#0B0F19]">
+    <section id="testimonials" className="py-24 relative bg-[#0B0F19] overflow-hidden">
       {/* Background radial spotlight */}
       <div className="absolute top-1/4 left-10 w-96 h-96 bg-[#00F2FE]/5 rounded-full blur-[140px] pointer-events-none" />
 

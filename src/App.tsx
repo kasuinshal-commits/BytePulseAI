@@ -54,7 +54,7 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0B0F19] text-[#F1F5F9] flex flex-col font-sans selection:bg-[#00F2FE]/20 selection:text-[#00F2FE]">
+    <div className="min-h-screen bg-[#0B0F19] text-[#F1F5F9] flex flex-col font-sans selection:bg-[#00F2FE]/20 selection:text-[#00F2FE] overflow-x-hidden w-full max-w-full">
       {/* Sticky Glassmorphic Navbar */}
       <Navbar
         onContactClick={() => handleScrollToSection('contact')}
@@ -62,7 +62,7 @@ export function App() {
       />
 
       {/* Main Content */}
-      <main className="flex-grow">
+      <main className="flex-grow overflow-x-hidden w-full max-w-full">
         {/* 1. Hero Section */}
         <Hero
           onStartProject={() => handleScrollToSection('estimator')}

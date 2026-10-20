@@ -24,7 +24,7 @@ export const Services: React.FC<ServicesProps> = ({ onSelectService }) => {
   };
 
   return (
-    <section id="services" className="py-24 relative bg-[#0B0F19]">
+    <section id="services" className="py-24 relative bg-[#0B0F19] overflow-hidden">
       {/* Background radial accent */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-[#9B51E0]/10 rounded-full blur-[150px] pointer-events-none" />
 

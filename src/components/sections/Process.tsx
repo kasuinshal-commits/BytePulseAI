@@ -28,7 +28,7 @@ export const Process: React.FC<ProcessProps> = ({ onStartProject }) => {
   const activeStep = PROCESS_STEPS[activeStepIndex];
 
   return (
-    <section id="process" className="py-24 relative bg-[#090D16] border-y border-white/5">
+    <section id="process" className="py-24 relative bg-[#090D16] border-y border-white/5 overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/3 w-96 h-96 bg-[#00F2FE]/5 rounded-full blur-[140px] pointer-events-none" />
 

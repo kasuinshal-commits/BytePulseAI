@@ -110,7 +110,7 @@ export const ServiceEstimator: React.FC<EstimatorProps> = ({ onApplyEstimate }) 
   };
 
   return (
-    <section id="estimator" className="py-24 relative bg-[#090D16] border-y border-white/5">
+    <section id="estimator" className="py-24 relative bg-[#090D16] border-y border-white/5 overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 left-0 w-80 h-80 bg-[#00F2FE]/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-10 right-0 w-80 h-80 bg-[#9B51E0]/10 rounded-full blur-[120px] pointer-events-none" />

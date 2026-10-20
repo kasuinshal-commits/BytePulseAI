@@ -57,7 +57,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ prefillData }) =
   };
 
   return (
-    <section id="contact" className="py-24 relative bg-[#090D16] border-t border-white/5">
+    <section id="contact" className="py-24 relative bg-[#090D16] border-t border-white/5 overflow-hidden">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-[#00F2FE]/5 rounded-full blur-[160px] pointer-events-none" />
 

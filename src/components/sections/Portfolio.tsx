@@ -19,7 +19,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onSelectProject }) => {
   });
 
   return (
-    <section id="portfolio" className="py-24 relative bg-[#0B0F19]">
+    <section id="portfolio" className="py-24 relative bg-[#0B0F19] overflow-hidden">
       {/* Background radial accent */}
       <div className="absolute top-1/2 right-10 w-96 h-96 bg-[#9B51E0]/10 rounded-full blur-[140px] pointer-events-none" />
 

@@ -330,13 +330,13 @@ export const BytePulseCopilot: React.FC = () => {
   };
 
   return (
-    <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end pointer-events-none">
       {/* Floating Chat Trigger Button */}
       {!isOpen && (
-        <div className="relative group">
-          {/* Subtle Teaser Pill when closed */}
+        <div className="relative group pointer-events-auto">
+          {/* Subtle Teaser Pill when closed - desktop only to protect mobile layout */}
           {hasUnread && (
-            <div className="absolute -top-10 right-0 whitespace-nowrap bg-[#0F172A] border border-[#00F2FE]/40 text-white text-[11px] px-3 py-1 rounded-full shadow-lg shadow-black/50 animate-bounce flex items-center gap-1.5 pointer-events-none">
+            <div className="absolute -top-10 right-0 whitespace-nowrap bg-[#0F172A] border border-[#00F2FE]/40 text-white text-[11px] px-3 py-1 rounded-full shadow-lg shadow-black/50 animate-bounce hidden sm:flex items-center gap-1.5 pointer-events-none">
               <Sparkles className="w-3 h-3 text-[#00F2FE]" />
               <span>Ask BytePulseAI about your project</span>
             </div>
@@ -344,7 +344,7 @@ export const BytePulseCopilot: React.FC = () => {
 
           <button
             onClick={() => setIsOpen(true)}
-            className="flex items-center gap-2.5 bg-gradient-to-r from-[#00F2FE] to-[#9B51E0] text-[#0B0F19] p-3.5 sm:px-4 sm:py-3 rounded-full font-bold shadow-[0_0_25px_rgba(0,242,254,0.45)] hover:shadow-[0_0_35px_rgba(0,242,254,0.7)] hover:scale-105 transition-all cursor-pointer group"
+            className="flex items-center gap-2.5 bg-gradient-to-r from-[#00F2FE] to-[#9B51E0] text-[#0B0F19] p-3 sm:px-4 sm:py-3 rounded-full font-bold shadow-[0_0_25px_rgba(0,242,254,0.45)] hover:shadow-[0_0_35px_rgba(0,242,254,0.7)] hover:scale-105 transition-all cursor-pointer group"
             aria-label="Open BytePulseAI"
           >
             <div className="relative">
@@ -360,7 +360,7 @@ export const BytePulseCopilot: React.FC = () => {
 
       {/* Expanded Copilot Chat Window */}
       {isOpen && (
-        <div className="w-[92vw] sm:w-[400px] h-[540px] max-h-[85vh] bg-[#0F172A] border border-[#00F2FE]/30 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.85)] backdrop-blur-2xl flex flex-col overflow-hidden animate-in fade-in slide-in-from-bottom-5 duration-200">
+        <div className="w-[calc(100vw-32px)] sm:w-[380px] md:w-[400px] h-[520px] max-h-[82vh] bg-[#0F172A] border border-[#00F2FE]/30 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.85)] backdrop-blur-2xl flex flex-col overflow-hidden animate-in fade-in slide-in-from-bottom-5 duration-200 pointer-events-auto">
           
           {/* Chat Window Header */}
           <div className="p-3.5 bg-gradient-to-r from-[#161F30] to-[#0F172A] border-b border-white/10 flex items-center justify-between">

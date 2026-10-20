@@ -37,7 +37,7 @@ export const TechStack: React.FC = () => {
   };
 
   return (
-    <section className="py-20 relative bg-[#090D16] border-y border-white/5">
+    <section className="py-20 relative bg-[#090D16] border-y border-white/5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
