@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bytepulse.store
+
+# Sitemaps
+Sitemap: https://bytepulse.store/sitemap.xml

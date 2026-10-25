@@ -179,7 +179,7 @@ export const Hero: React.FC<HeroProps> = ({ onStartProject, onExploreServices })
                       </div>
                       <div className="px-3 py-1 rounded-md bg-[#0B0F19] text-[11px] font-mono text-gray-400 border border-white/5 flex items-center gap-2 max-w-xs truncate">
                         <span className="text-[#00F2FE]">https://</span>
-                        <span>cloud.bytepulse.ai/control-plane</span>
+                        <span>cloud.bytepulse.store/control-plane</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="text-[10px] text-emerald-400 font-mono flex items-center gap-1">
