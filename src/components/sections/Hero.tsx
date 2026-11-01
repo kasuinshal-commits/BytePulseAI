@@ -47,13 +47,14 @@ export const Hero: React.FC<HeroProps> = ({ onStartProject, onExploreServices })
         {/* Catchy Editorial Headline */}
         <div className="text-center max-w-5xl mx-auto">
           <h1 className="text-[26px] xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white leading-[1.12] mb-6">
+            <span className="sr-only">Byte Pulse - </span>
             <span className="block">We Build <span className="whitespace-nowrap">High-Performance</span></span>
             <span className="block text-gradient-cyan-purple">Web & Android Apps</span>
             <span className="block text-white">Powered by AI.</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
-            Transforming your boldest ideas into lightning-fast web applications and native mobile experiences with enterprise-grade stability and intelligence.
+            At <strong className="font-semibold text-white">Byte Pulse</strong>, we transform your boldest ideas into lightning-fast web applications and native Android experiences with enterprise-grade stability and intelligence.
           </p>
 
           {/* Dual CTAs */}

@@ -39,7 +39,7 @@ export const TrustStats: React.FC = () => {
             Trusted by Ambitious Founders & Tech Leaders
           </h2>
           <p className="mt-4 text-gray-400 text-base sm:text-lg">
-            See how startups and enterprise engineering teams scale their product roadmaps with BytePulseAI.
+            See how startups and enterprise engineering teams scale their product roadmaps with Byte Pulse.
           </p>
         </div>
 

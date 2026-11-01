@@ -60,10 +60,10 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({ onEstimateClic
             Clear Competitive Advantage
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Why Founders Choose BytePulseAI
+            Why Founders Choose Byte Pulse
           </h2>
           <p className="mt-4 text-gray-400 text-base sm:text-lg">
-            See how our agile, AI-accelerated engineering pods outperform bloated legacy agencies and unvetted freelancer marketplaces.
+            See how Byte Pulse agile, AI-accelerated engineering pods outperform bloated legacy agencies and unvetted freelancer marketplaces.
           </p>
         </div>
 

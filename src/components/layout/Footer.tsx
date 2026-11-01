@@ -21,9 +21,9 @@ export const Footer: React.FC = () => {
           
           {/* Brand Info (2 cols on lg) */}
           <div className="lg:col-span-2 space-y-4">
-            <a href="#" className="flex items-center gap-2.5">
+            <a href="#" aria-label="Byte Pulse Home" className="flex items-center gap-2.5">
               <div className="w-8 h-8 rounded-lg bg-[#0B0F19] border border-[#00F2FE]/40 flex items-center justify-center shadow-[0_0_12px_rgba(0,242,254,0.3)] p-0.5 overflow-hidden">
-                <img src="/logo-mark.png" alt="BytePulseAI Logo" className="w-full h-full object-cover rounded" />
+                <img src="/logo-mark.png" alt="Byte Pulse - BytePulseAI Logo" className="w-full h-full object-cover rounded" />
               </div>
               <span className="text-xl font-extrabold text-white">
                 Byte<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00F2FE] to-[#38BDF8]">Pulse</span>
@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
             </a>
 
             <p className="text-sm text-gray-400 max-w-sm leading-relaxed">
-              {COMPANY_INFO.tagline}. We engineer high-velocity custom web applications, native Android experiences, and LLM automation systems for forward-thinking companies.
+              <strong className="text-gray-300 font-semibold">Byte Pulse</strong> — {COMPANY_INFO.tagline}. We engineer high-velocity custom web applications, native Android experiences, and LLM automation systems for forward-thinking companies.
             </p>
 
             {/* Operational Status Pill */}

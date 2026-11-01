@@ -43,7 +43,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick, onNavigateToEsti
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo with pulsating light mark */}
-          <a href="#" className="flex items-center gap-2.5 group">
+          <a href="#" aria-label="Byte Pulse Home" className="flex items-center gap-2.5 group">
             <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-[#0B0F19] border border-[#00F2FE]/40 group-hover:border-[#00F2FE] transition-all shadow-[0_0_15px_rgba(0,242,254,0.35)] p-0.5">
               {/* Pulsating dot indicator */}
               <span className="absolute -top-0.5 -right-0.5 flex h-2.5 w-2.5 z-10">
@@ -52,7 +52,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick, onNavigateToEsti
               </span>
               <img
                 src="/logo-mark.png"
-                alt="BytePulseAI"
+                alt="Byte Pulse - BytePulseAI Logo"
                 className="w-full h-full object-cover rounded-lg transform transition-transform group-hover:scale-105"
               />
             </div>
