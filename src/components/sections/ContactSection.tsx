@@ -16,7 +16,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ prefillData }) =
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [service, setService] = useState('Web & Android Ecosystem');
-  const [budget, setBudget] = useState('₹30,000 - ₹75,000');
+  const [budget, setBudget] = useState('₹18,000 - ₹45,000');
   const [details, setDetails] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -254,10 +254,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ prefillData }) =
                         onChange={(e) => setBudget(e.target.value)}
                         className="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-[#00F2FE] transition-colors"
                       >
-                        <option value="< ₹30,000">&lt; ₹30,000 (Consulting / MVP Prototype)</option>
-                        <option value="₹30,000 - ₹75,000">₹30,000 – ₹75,000 (Standard Web / Android Build)</option>
-                        <option value="₹75,000 - ₹1,50,000">₹75,000 – ₹1,50,000 (Full-Stack & Native App + AI)</option>
-                        <option value="₹1,50,000+">₹1,50,000+ (Enterprise Multi-Platform Suite)</option>
+                        <option value="< ₹18,000">&lt; ₹18,000 (Consulting / MVP Prototype)</option>
+                        <option value="₹18,000 - ₹45,000">₹18,000 – ₹45,000 (Standard Web / Android Build)</option>
+                        <option value="₹45,000 - ₹90,000">₹45,000 – ₹90,000 (Full-Stack & Native App + AI)</option>
+                        <option value="₹90,000+">₹90,000+ (Enterprise Multi-Platform Suite)</option>
                       </select>
                     </div>
                   </div>

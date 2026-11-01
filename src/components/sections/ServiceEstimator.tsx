@@ -35,9 +35,9 @@ export const ServiceEstimator: React.FC<EstimatorProps> = ({ onApplyEstimate }) 
   // Dynamic calculations
   const calculation = useMemo(() => {
     // Base platform price in INR (optimized for Indian tech & startup market)
-    let basePrice = 24000;
-    if (platform === 'android') basePrice = 32000;
-    if (platform === 'both') basePrice = 52000;
+    let basePrice = 14400;
+    if (platform === 'android') basePrice = 19200;
+    if (platform === 'both') basePrice = 31200;
 
     // Scope multiplier
     let scopeMultiplier = 1.0;

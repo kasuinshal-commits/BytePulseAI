@@ -280,14 +280,14 @@ export const STATS_DATA = [
 ];
 
 export const ESTIMATOR_FEATURES: EstimatorFeature[] = [
-  { id: "ai-copilot", label: "AI Copilot / LLM Chatbot Integration", price: 15000, days: 8, category: "ai" },
-  { id: "auth-rbac", label: "Custom Auth & Role-Based Access (RBAC)", price: 6000, days: 4, category: "core" },
-  { id: "realtime-sync", label: "Realtime WebSockets & Live Push", price: 8500, days: 5, category: "core" },
-  { id: "payments-stripe", label: "UPI, Razorpay & Card Gateway Integration", price: 7500, days: 4, category: "core" },
-  { id: "admin-analytics", label: "Admin Telemetry & Analytics Dashboard", price: 9500, days: 5, category: "core" },
-  { id: "offline-native", label: "Native Push Notifications & Offline Cache", price: 7000, days: 4, category: "core" },
-  { id: "rag-vector", label: "Custom RAG Vector Search & Embeddings", price: 18000, days: 9, category: "ai" },
-  { id: "ci-cd-devops", label: "Play Store Deployment & Cloud CI/CD", price: 6500, days: 3, category: "scale" }
+  { id: "ai-copilot", label: "AI Copilot / LLM Chatbot Integration", price: 9000, days: 8, category: "ai" },
+  { id: "auth-rbac", label: "Custom Auth & Role-Based Access (RBAC)", price: 3600, days: 4, category: "core" },
+  { id: "realtime-sync", label: "Realtime WebSockets & Live Push", price: 5100, days: 5, category: "core" },
+  { id: "payments-stripe", label: "UPI, Razorpay & Card Gateway Integration", price: 4500, days: 4, category: "core" },
+  { id: "admin-analytics", label: "Admin Telemetry & Analytics Dashboard", price: 5700, days: 5, category: "core" },
+  { id: "offline-native", label: "Native Push Notifications & Offline Cache", price: 4200, days: 4, category: "core" },
+  { id: "rag-vector", label: "Custom RAG Vector Search & Embeddings", price: 10800, days: 9, category: "ai" },
+  { id: "ci-cd-devops", label: "Play Store Deployment & Cloud CI/CD", price: 3900, days: 3, category: "scale" }
 ];
 
 export const FAQS = [

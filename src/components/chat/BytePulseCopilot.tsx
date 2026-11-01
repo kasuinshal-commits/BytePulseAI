@@ -108,7 +108,7 @@ export const BytePulseCopilot: React.FC = () => {
     // 3. Pricing / Cost / Rates in Rupee
     if (/\b(cost|price|pricing|budget|rupee|inr|₹|how much|rate|quote|estimate|cheap|affordable|discount)\b/.test(q)) {
       return {
-        text: "Our pricing is transparent and calibrated for the Indian market! Custom Web MVPs start at ₹24,000, Native Android apps at ₹32,000, and full-stack Web + Android suites start at ₹52,000. We follow a 3-stage milestone escrow model (30% kickoff / 40% beta staging / 30% launch) with 0 hidden fees.",
+        text: "Our pricing is transparent and calibrated for the Indian market! Custom Web MVPs start at ₹14,400, Native Android apps at ₹19,200, and full-stack Web + Android suites start at ₹31,200. We follow a 3-stage milestone escrow model (30% kickoff / 40% beta staging / 30% launch) with 0 hidden fees.",
         action: {
           label: "Launch Interactive Cost Calculator",
           type: 'scroll',
